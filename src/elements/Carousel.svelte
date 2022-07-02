@@ -1,12 +1,12 @@
 <div
-  id="carouselExampleIndicators"
+  id="carouselExampleCaptions"
   class="carousel slide"
   data-bs-ride="carousel"
 >
   <div class="carousel-indicators">
     <button
       type="button"
-      data-bs-target="#carouselExampleIndicators"
+      data-bs-target="#carouselExampleCaptions"
       data-bs-slide-to="0"
       class="active"
       aria-current="true"
@@ -14,52 +14,107 @@
     />
     <button
       type="button"
-      data-bs-target="#carouselExampleIndicators"
+      data-bs-target="#carouselExampleCaptions"
       data-bs-slide-to="1"
       aria-label="Slide 2"
     />
     <button
       type="button"
-      data-bs-target="#carouselExampleIndicators"
+      data-bs-target="#carouselExampleCaptions"
       data-bs-slide-to="2"
       aria-label="Slide 3"
     />
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="3"
+      aria-label="Slide 4"
+    />
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="4"
+      aria-label="Slide 5"
+    />
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="5"
+      aria-label="Slide 6"
+    />
   </div>
   <div class="carousel-inner">
-    <div class="carousel-item active  rel">
-      <img
-        src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2VkZGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-        class="d-block w-100 img-fluid"
-        alt="..."
-      />
-      <div class="d-flex flex-column rand-title">
-        <h1 class="">Text 2</h1>
-        <button class="custom-btn btn-5"><span>Read More</span></button>
+    <div class="carousel-item active">
+      <img src="/images/wedding.jpg" class="d-block w-100" alt="wedding-img" />
+      <div class="carousel-caption d-none d-md-block car__caption">
+        <h5 class="car__title">WEDDING SERVICE</h5>
+        <a href="#">
+          <button class="custom-btn btn-5"><span>View More</span></button>
+        </a>
       </div>
     </div>
-    <!-- <div class="carousel-item">
+    <div class="carousel-item">
       <img
-        src="https://images.unsplash.com/photo-1634729108541-516d16ddceec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-        class="d-block w-100 img-fluid"
-        alt="..."
+        src="/images/anniversary.jpg"
+        class="d-block w-100"
+        alt="anniversary-img"
       />
-      <div class="d-flex h-100 align-items-center justify-content-center">
-        <h1>Text 2</h1>
+      <div class="carousel-caption d-none d-md-block car__caption">
+        <h5 class="car__title">ANNIVERSARY SERVICE</h5>
+        <a href="#">
+          <button class="custom-btn btn-5"><span>View More</span></button></a
+        >
       </div>
-    </div> -->
-    <!-- <div class="carousel-item">
+    </div>
+    <div class="carousel-item">
       <img
-        src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-        class="d-block w-100 img-fluid"
-        alt="..."
+        src="/images/baby-shower.jpg"
+        class="d-block w-100"
+        alt="baby-shower-img"
       />
-      <span>asdsad</span>
-    </div> -->
+      <div class="carousel-caption d-none d-md-block car__caption">
+        <h5 class="car__title">BABY SHOWER SERVICE</h5>
+        <a href="#">
+          <button class="custom-btn btn-5"><span>View More</span></button></a
+        >
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/images/mehdi.jpg" class="d-block w-100" alt="mehdi-img" />
+      <div class="carousel-caption d-none d-md-block car__caption">
+        <h5 class="car__title">MEHDI SERVICE</h5>
+        <a href="#">
+          <button class="custom-btn btn-5"><span>View More</span></button></a
+        >
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/images/mehdi-2.jpg" class="d-block w-100" alt="mehdi-2-img" />
+      <div class="carousel-caption d-none d-md-block car__caption">
+        <h5 class="car__title">MEHDI 2 SERVICE</h5>
+        <a href="#">
+          <button class="custom-btn btn-5"><span>View More</span></button></a
+        >
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img
+        src="/images/birthday.jpg"
+        class="d-block w-100"
+        alt="birthday-img"
+      />
+      <div class="carousel-caption d-none d-md-block car__caption">
+        <h5 class="car__title">BIRTHDAY SERVICE</h5>
+        <a href="#">
+          <button class="custom-btn btn-5"><span>View More</span></button></a
+        >
+      </div>
+    </div>
   </div>
   <button
     class="carousel-control-prev"
     type="button"
-    data-bs-target="#carouselExampleIndicators"
+    data-bs-target="#carouselExampleCaptions"
     data-bs-slide="prev"
   >
     <span class="carousel-control-prev-icon" aria-hidden="true" />
@@ -68,7 +123,7 @@
   <button
     class="carousel-control-next"
     type="button"
-    data-bs-target="#carouselExampleIndicators"
+    data-bs-target="#carouselExampleCaptions"
     data-bs-slide="next"
   >
     <span class="carousel-control-next-icon" aria-hidden="true" />
@@ -76,14 +131,18 @@
   </button>
 </div>
 
-<style>
-  .rel {
-    position: relative;
-  }
-  .rand-title {
-    position: absolute;
-    top: 50%;
-    left: 48%;
+<style lang="scss">
+  @import url("https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap");
+  .car {
+    &__caption {
+      margin-bottom: 2rem;
+    }
+
+    &__title {
+      font-size: 2rem;
+      font-family: "Calligraffitti", cursive;
+      letter-spacing: 5px;
+    }
   }
 
   button {
@@ -93,7 +152,7 @@
     width: 130px;
     height: 40px;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 3px;
     padding: 10px 25px;
     font-family: "Lato", sans-serif;
     font-weight: 500;
@@ -116,13 +175,13 @@
     border: none;
     background: rgb(255, 27, 0);
     background: linear-gradient(
-      0deg,
-      rgba(255, 27, 0, 1) 0%,
-      rgba(251, 75, 2, 1) 100%
+      90deg,
+      rgba(46, 5, 5, 1) 0%,
+      rgba(206, 60, 62, 1) 100%
     );
   }
   .btn-5:hover {
-    color: #f0094a;
+    color: #fff;
     background: transparent;
     box-shadow: none;
   }
@@ -134,7 +193,7 @@
     right: 0;
     height: 2px;
     width: 0;
-    background: #f0094a;
+    background: red;
     box-shadow: -1px -1px 5px 0px #fff, 7px 7px 20px 0px #0003,
       4px 4px 5px 0px #0002;
     transition: 400ms ease all;
