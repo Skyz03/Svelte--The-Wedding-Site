@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xl-5">
+      <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
         <a
           href="/"
           class="d-flex align-items-center mb-3 link-dark text-decoration-none"
@@ -15,7 +15,7 @@
         <p>One stop shop for all your decortation item.</p>
       </div>
 
-      <div class="col-xl-2">
+      <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12">
         <h5>Services</h5>
         <ul class="nav flex-column footer__lists">
           <li class="nav-item mb-2">
@@ -33,7 +33,7 @@
         </ul>
       </div>
 
-      <div class="col-xl-2">
+      <div class="col-xl-2 col-lg-2 col-md-6 col-sm-12">
         <h5>Services</h5>
         <ul class="nav flex-column footer__lists">
           <li class="nav-item mb-2">
@@ -51,7 +51,7 @@
         </ul>
       </div>
 
-      <div class="col-xl-3 footer__contact">
+      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 footer__contact">
         <h5>Contact</h5>
         <ul class="nav flex-column footer__lists">
           <li class="nav-item mb-2">
