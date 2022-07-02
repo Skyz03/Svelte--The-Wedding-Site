@@ -96,6 +96,12 @@
     }
   }
 
+  .fixed-top {
+    @media (max-width: 991.98px) {
+      position: relative;
+    }
+  }
+
   .dropdown-menu {
     min-width: 13rem;
   }

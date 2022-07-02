@@ -130,6 +130,10 @@
         }
         a {
           color: #fff !important;
+
+          @media (max-width: 575.98px) {
+            font-size: 0.9rem;
+          }
         }
       }
     }

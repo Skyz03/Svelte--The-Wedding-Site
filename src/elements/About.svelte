@@ -30,18 +30,31 @@
 
     &__text {
       margin-left: 2rem;
+
+      @media (max-width: 991.98px) {
+        margin-top: 1rem;
+        margin-left: 0;
+      }
     }
 
     &__title {
       font-family: "Calligraffitti", cursive;
       font-size: 3rem;
       letter-spacing: 5px;
+
+      @media (max-width: 575.98px) {
+        font-size: 1.5rem;
+      }
     }
 
     &__subtitle {
       text-align: justify;
       letter-spacing: 1px;
       font-size: 1.1rem;
+
+      @media (max-width: 575.98px) {
+        font-size: 0.9rem;
+      }
     }
   }
 </style>

@@ -45,8 +45,12 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/images/wedding.jpg" class="d-block w-100" alt="wedding-img" />
-      <div class="carousel-caption d-none d-md-block car__caption">
+      <img
+        src="/images/wedding.jpg"
+        class="d-block w-100 car__img"
+        alt="wedding-img"
+      />
+      <div class="carousel-caption  d-md-block car__caption">
         <h5 class="car__title">WEDDING SERVICE</h5>
         <a href="#">
           <button class="custom-btn btn-5"><span>View More</span></button>
@@ -56,10 +60,10 @@
     <div class="carousel-item">
       <img
         src="/images/anniversary.jpg"
-        class="d-block w-100"
+        class="d-block w-100 car__img"
         alt="anniversary-img"
       />
-      <div class="carousel-caption d-none d-md-block car__caption">
+      <div class="carousel-caption  d-md-block car__caption">
         <h5 class="car__title">ANNIVERSARY SERVICE</h5>
         <a href="#">
           <button class="custom-btn btn-5"><span>View More</span></button></a
@@ -69,10 +73,10 @@
     <div class="carousel-item">
       <img
         src="/images/baby-shower.jpg"
-        class="d-block w-100"
+        class="d-block w-100 car__img"
         alt="baby-shower-img"
       />
-      <div class="carousel-caption d-none d-md-block car__caption">
+      <div class="carousel-caption  d-md-block car__caption">
         <h5 class="car__title">BABY SHOWER SERVICE</h5>
         <a href="#">
           <button class="custom-btn btn-5"><span>View More</span></button></a
@@ -80,8 +84,12 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/images/mehdi.jpg" class="d-block w-100" alt="mehdi-img" />
-      <div class="carousel-caption d-none d-md-block car__caption">
+      <img
+        src="/images/mehdi.jpg"
+        class="d-block w-100 car__img"
+        alt="mehdi-img"
+      />
+      <div class="carousel-caption  d-md-block car__caption">
         <h5 class="car__title">MEHDI SERVICE</h5>
         <a href="#">
           <button class="custom-btn btn-5"><span>View More</span></button></a
@@ -89,8 +97,12 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/images/mehdi-2.jpg" class="d-block w-100" alt="mehdi-2-img" />
-      <div class="carousel-caption d-none d-md-block car__caption">
+      <img
+        src="/images/mehdi-2.jpg"
+        class="d-block w-100 car__img"
+        alt="mehdi-2-img"
+      />
+      <div class="carousel-caption  d-md-block car__caption">
         <h5 class="car__title">MEHDI 2 SERVICE</h5>
         <a href="#">
           <button class="custom-btn btn-5"><span>View More</span></button></a
@@ -100,10 +112,10 @@
     <div class="carousel-item">
       <img
         src="/images/birthday.jpg"
-        class="d-block w-100"
+        class="d-block w-100 car__img"
         alt="birthday-img"
       />
-      <div class="carousel-caption d-none d-md-block car__caption">
+      <div class="carousel-caption  d-md-block car__caption">
         <h5 class="car__title">BIRTHDAY SERVICE</h5>
         <a href="#">
           <button class="custom-btn btn-5"><span>View More</span></button></a
@@ -142,11 +154,19 @@
       font-size: 2rem;
       font-family: "Calligraffitti", cursive;
       letter-spacing: 5px;
+
+      @media (max-width: 767.98px) {
+        font-size: 1rem;
+      }
     }
   }
 
   button {
     margin: 20px;
+
+    @media (max-width: 575.98px) {
+      margin: 10px;
+    }
   }
   .custom-btn {
     width: 130px;
