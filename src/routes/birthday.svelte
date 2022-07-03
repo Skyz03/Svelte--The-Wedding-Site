@@ -6,11 +6,11 @@
   // @ts-ignore
   import Footer from "../elements/Footer.svelte";
   import Heading from "../elements/Heading.svelte";
-  import App from "../Wedding/Wedding.svelte";
+  import App from "../Birthday/Birthday.svelte";
 </script>
 
 <Navigation />
 
-<Heading title={"Wedding Service"} />
+<Heading title={"Birthday Service"} />
 <App />
 <Footer />
