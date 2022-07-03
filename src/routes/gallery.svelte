@@ -1,10 +1,16 @@
 <script>
+  // @ts-ignore
+  import Carousel from "../elements/Carousel.svelte";
+  // @ts-ignore
   import Navigation from "../elements/Navigation.svelte";
+  // @ts-ignore
+  import Footer from "../elements/Footer.svelte";
+  import Heading from "../elements/Heading.svelte";
+  import App from "../lightbox/App.svelte";
 </script>
 
 <Navigation />
 
-<h1>Welcome to SvelteKit</h1>
-<p>
-  Visit <a href="https://kit.svelte.dev">kit.svelte.dev gal</a> to read the documentation
-</p>
+<Heading title={"Anniversary Service"} />
+<App />
+<Footer />

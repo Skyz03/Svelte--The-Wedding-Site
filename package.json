@@ -14,6 +14,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
+		"@types/jquery": "^3.5.14",
 		"eslint": "^8.16.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"sass": "^1.53.0",
