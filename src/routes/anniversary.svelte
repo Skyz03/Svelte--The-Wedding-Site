@@ -6,11 +6,11 @@
   // @ts-ignore
   import Footer from "../elements/Footer.svelte";
   import Heading from "../elements/Heading.svelte";
-  import App from "../lightbox/App.svelte";
+  import Anniversary from "../Anniversary/Anniversary.svelte";
 </script>
 
 <Navigation />
 
 <Heading title={"Anniversary Service"} />
-<App />
+<Anniversary />
 <Footer />
