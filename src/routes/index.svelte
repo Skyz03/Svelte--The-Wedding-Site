@@ -6,9 +6,12 @@
   // @ts-ignore
   import About from "../elements/About.svelte";
   import Footer from "../elements/Footer.svelte";
+  import Contact from "../elements/Contact.svelte";
 </script>
 
 <Navigation />
 <Carousel />
+
+<Contact />
 <About />
 <Footer />
